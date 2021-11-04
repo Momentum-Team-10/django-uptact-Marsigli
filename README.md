@@ -45,8 +45,10 @@ $ cp uptact/.env.sample uptact/.env
 For the first assignment, spend time familiarizing yourself with Django. Look at the `uptact` directory (the _project directory_) and the `contacts` directory (an _app directory_). Answer the following questions for yourself:
 
 - If I wanted to add a new URL to this project, what two files would I edit?
+<!-- in the uptact directory urls.py -->
+<!-- in the contacts directory views.py -->
 - If I wanted to add a birthday to each contact, what file would I edit?
-
+<!-- in the contacts models.py file -->
 Then do the following steps:
 
 1. Add a birthday field to the `Contact` model. This field should be of type `DateField` and should be allowed to be null and empty.
